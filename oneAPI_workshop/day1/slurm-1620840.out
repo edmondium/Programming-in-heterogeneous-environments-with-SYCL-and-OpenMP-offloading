@@ -1,0 +1,38 @@
+ 
+:: initializing oneAPI environment ...
+   slurm_script: BASH_VERSION = 4.4.20(1)-release
+   args: Using "$@" for setvars.sh arguments: 
+:: advisor -- latest
+:: ccl -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: inspector -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: itac -- latest
+:: mkl -- latest
+:: mpi -- latest
+:: tbb -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+starting program simple-sycl-app on the cpu
+**********************************************
+running program:  simple-sycl-app 
+
+UR CUDA ERROR:
+	Value:           100
+	Name:            CUDA_ERROR_NO_DEVICE
+	Description:     no CUDA-capable device is detected
+	Function:        operator()
+	Source Location: /tmp/tmp.7vgJ2wJCWQ/intel-llvm-mirror/sycl/plugins/unified_runtime/ur/adapters/cuda/platform.cpp:76
+
+******************************************* 
+Selected device: AMD EPYC 7713 64-Core Processor                
+******************************************* 
+**********************************************

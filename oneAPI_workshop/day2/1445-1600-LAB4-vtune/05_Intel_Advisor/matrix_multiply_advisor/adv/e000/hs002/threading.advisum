@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="sycl::_V1::detail::platform_impl::get_platforms"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="2.900453E+00"
+           trip_counts=""
+           func_instance="128"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="sycl::_V1::detail::platform_impl::get_platforms"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="2.608438E+00"
+           trip_counts=""
+           func_instance="169"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="khrIcdVendorsEnumerateEnv"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.830003E+00"
+           trip_counts=""
+           func_instance="15"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="khrIcdOsVendorsEnumerate"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="5.679810E-01"
+           trip_counts=""
+           func_instance="24"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="sycl::_V1::detail::ProgramManager::getOrCreateKernel"
+           is_vectorized="1"
+           self_time="0.000000E+00"
+           total_time="3.116664E-01"
+           trip_counts=""
+           func_instance="384"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

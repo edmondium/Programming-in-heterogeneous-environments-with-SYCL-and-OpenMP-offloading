@@ -1,0 +1,4 @@
+/home/sonar/IntelOneAPI/oneAPI-samples/Tools/Advisor/matrix_multiply_advisor/CMakeFiles/matrix.dpcpp.dir
+/home/sonar/IntelOneAPI/oneAPI-samples/Tools/Advisor/matrix_multiply_advisor/CMakeFiles/run.dir
+/home/sonar/IntelOneAPI/oneAPI-samples/Tools/Advisor/matrix_multiply_advisor/CMakeFiles/edit_cache.dir
+/home/sonar/IntelOneAPI/oneAPI-samples/Tools/Advisor/matrix_multiply_advisor/CMakeFiles/rebuild_cache.dir

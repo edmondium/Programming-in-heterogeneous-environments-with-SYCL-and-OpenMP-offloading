@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/sonar/IntelOneAPI/oneAPI-samples/Tools/Advisor/matrix_multiply_advisor/src/multiply.cpp"
+           line_no="92"
+           routine="multiply1_1(int, int, int, float (*)[1024"
+           is_vectorized="2"
+           self_time="1.483267E-01"
+           total_time="1.483267E-01"
+           trip_counts="5780793288448"
+           func_instance="39"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="std::__detail::_BracketMatcher&lt;std::__cxx11::regex_traits&lt;char&gt;, (bool)0, (bool)0&gt;::_M_apply(char, std::integral_constant&lt;bool, (bool)0&gt;) const::{lambda()#1}::operator()"
+           is_vectorized="0"
+           self_time="1.155076E-02"
+           total_time="1.155076E-02"
+           trip_counts=""
+           func_instance="325"
+           priority="0"/>
+  <hotspot filename="/home/sonar/IntelOneAPI/oneAPI-samples/Tools/Advisor/matrix_multiply_advisor/src/multiply.cpp"
+           line_no="96"
+           routine="multiply1_1(int, int, int, float (*)[1024"
+           is_vectorized="1"
+           self_time="1.000000E-02"
+           total_time="1.583267E-01"
+           trip_counts="64"
+           func_instance="45"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="khrIcdVendorsEnumerateEnv"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.830003E+00"
+           trip_counts=""
+           func_instance="15"
+           priority="0"/>
+  <hotspot filename=""
+           line_no="4294967295"
+           routine="khrIcdOsVendorsEnumerate"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="5.679810E-01"
+           trip_counts=""
+           func_instance="24"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

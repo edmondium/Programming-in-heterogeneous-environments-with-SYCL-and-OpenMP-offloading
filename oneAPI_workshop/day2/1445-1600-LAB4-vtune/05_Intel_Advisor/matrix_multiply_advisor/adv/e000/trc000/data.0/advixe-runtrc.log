@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2023/12/11 11:59:26</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/matrix.dpcpp</arg>
+  <arg>25045</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:38 2023</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:38 2023</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/matrix.dpcpp</arg>
+  <arg>0x400000</arg>
+  <arg>0x4f002f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:38 2023</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x150907316000</arg>
+  <arg>0x1509073512d7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:38 2023</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x150907314000</arg>
+  <arg>0x150907314e6c</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:38 2023</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libstdc++.so.6</arg>
+  <arg>0x1508f1600000</arg>
+  <arg>0x1508f182b8bf</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:39 2023</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libm.so.6</arg>
+  <arg>0x1508f14f8000</arg>
+  <arg>0x1508f15de107</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:39 2023</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libgcc_s.so.1</arg>
+  <arg>0x1508f14d8000</arg>
+  <arg>0x1508f14f72e7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:39 2023</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libsycl.so.7</arg>
+  <arg>0x1508f1000000</arg>
+  <arg>0x1508f133665f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:39 2023</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libc.so.6</arg>
+  <arg>0x1508f0c00000</arg>
+  <arg>0x1508f0e27e4f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:39 2023</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libdl.so.2</arg>
+  <arg>0x1508f1464000</arg>
+  <arg>0x1508f1468027</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libpthread.so.0</arg>
+  <arg>0x1508f1437000</arg>
+  <arg>0x1508f143b027</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libpi_opencl.so</arg>
+  <arg>0x1508ea90a000</arg>
+  <arg>0x1508eaa0d6bf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="19" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/opt/oclfpga/host/linux64/lib/libOpenCL.so.1</arg>
+  <arg>0x1508ea400000</arg>
+  <arg>0x1508ea60b5c7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="20" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libsvml.so</arg>
+  <arg>0x1508e8c00000</arg>
+  <arg>0x1508ea233c43</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="21" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libirng.so</arg>
+  <arg>0x1508ea23b000</arg>
+  <arg>0x1508ea33459d</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="22" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libimf.so</arg>
+  <arg>0x1508e8600000</arg>
+  <arg>0x1508e8a1d61f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="23" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libintlc.so.5</arg>
+  <arg>0x1508ea60f000</arg>
+  <arg>0x1508ea66f92f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="24" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libpi_cuda.so</arg>
+  <arg>0x1508e7669000</arg>
+  <arg>0x1508e76b35d7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="25" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libcuda.so.1</arg>
+  <arg>0x1508e0e00000</arg>
+  <arg>0x1508e2a837bf</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:40 2023</timestamp>
+</msg>
+<msg id="26" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/librt.so.1</arg>
+  <arg>0x1508e764c000</arg>
+  <arg>0x1508e7650037</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:41 2023</timestamp>
+</msg>
+<msg id="27" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libpi_unified_runtime.so</arg>
+  <arg>0x1509042b1000</arg>
+  <arg>0x1509042c526a</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:41 2023</timestamp>
+</msg>
+<msg id="28" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libur_loader.so.0</arg>
+  <arg>0x1508e4b7c000</arg>
+  <arg>0x1508e4d41087</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:42 2023</timestamp>
+</msg>
+<msg id="29" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libintelocl.so</arg>
+  <arg>0x1508d5200000</arg>
+  <arg>0x1508da08ef7f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:42 2023</timestamp>
+</msg>
+<msg id="30" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libcommon_clang.so.2023.16.10.0</arg>
+  <arg>0x1508cb400000</arg>
+  <arg>0x1508d50ec77f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="31" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/libtbb.so.12</arg>
+  <arg>0x1508e0a00000</arg>
+  <arg>0x1508e0c8878f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="32" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libonnxruntime.1.12.22.721.so</arg>
+  <arg>0x1508ca400000</arg>
+  <arg>0x1508cb287577</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="33" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libz.so.1</arg>
+  <arg>0x1508e2e4c000</arg>
+  <arg>0x1508e2e670b7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="34" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libxml2.so.2</arg>
+  <arg>0x1508e2c56000</arg>
+  <arg>0x1508e2e37dd7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="35" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libicuuc.so.70</arg>
+  <arg>0x1508e0805000</arg>
+  <arg>0x1508e09ff2df</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="36" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/liblzma.so.5</arg>
+  <arg>0x1508e2c2b000</arg>
+  <arg>0x1508e2c55107</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="37" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libicudata.so.70</arg>
+  <arg>0x1508c8600000</arg>
+  <arg>0x1508ca21d017</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="38" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/libtcm.so.1</arg>
+  <arg>0x1508bc600000</arg>
+  <arg>0x1508bc8455cf</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:55 2023</timestamp>
+</msg>
+<msg id="39" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/libhwloc.so.15</arg>
+  <arg>0x1508bc200000</arg>
+  <arg>0x1508bc4568c7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 11:59:56 2023</timestamp>
+</msg>
+<msg id="40" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/intelpython/latest/lib/libintelocl_emu.so</arg>
+  <arg>0x1508a7800000</arg>
+  <arg>0x1508ad1e3bf7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:00 2023</timestamp>
+</msg>
+<msg id="41" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/libtbbmalloc.so.2</arg>
+  <arg>0x1508a7400000</arg>
+  <arg>0x1508a766122f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:00 2023</timestamp>
+</msg>
+<msg id="42" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/intelpython/latest/lib/libintelocl.so</arg>
+  <arg>0x15088ea00000</arg>
+  <arg>0x1508943e3bf7</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:02 2023</timestamp>
+</msg>
+<msg id="43" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime/libittnotify.so</arg>
+  <arg>0x15085ea00000</arg>
+  <arg>0x15085ec1924f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:05 2023</timestamp>
+</msg>
+<msg id="44" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/__ocl_svml_z0.so</arg>
+  <arg>0x15085c400000</arg>
+  <arg>0x15085d41702f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:06 2023</timestamp>
+</msg>
+<msg id="45" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/advisor/2024.0/lib64/libpinjitprofiling.so</arg>
+  <arg>0x15084a359000</arg>
+  <arg>0x15084a35d017</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:07 2023</timestamp>
+</msg>
+<msg id="46" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>66df86178dd603ed</arg>
+  <arg>0x15084aa63000</arg>
+  <arg>0x15084aa9f8c9</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:07 2023</timestamp>
+</msg>
+<msg id="47" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0/../archive/binaries/75d0ce5fd3762a6e/75d0ce5fd3762a6e</arg>
+  <arg>0x1507c8833000</arg>
+  <arg>0x1507c8835d1d</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:29 2023</timestamp>
+</msg>
+<msg id="48" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>75d0ce5fd3762a6e</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:29 2023</timestamp>
+</msg>
+<msg id="49" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/advisor/2024.0/lib64/libpinjitprofiling.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="50" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/matrix.dpcpp</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="51" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="52" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="53" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libstdc++.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="54" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="55" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libgcc_s.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="56" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libsycl.so.7</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="57" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="58" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libdl.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="59" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libpthread.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="60" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libpi_opencl.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="61" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/opt/oclfpga/host/linux64/lib/libOpenCL.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="62" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libsvml.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="63" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libirng.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="64" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libimf.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="65" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libintlc.so.5</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="66" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libpi_cuda.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="67" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libcuda.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="68" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/librt.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="69" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libpi_unified_runtime.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="70" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libur_loader.so.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="71" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libintelocl.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="72" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libcommon_clang.so.2023.16.10.0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:30 2023</timestamp>
+</msg>
+<msg id="73" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/libtbb.so.12</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="74" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/libonnxruntime.1.12.22.721.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="75" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libz.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="76" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libxml2.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="77" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libicuuc.so.70</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="78" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/liblzma.so.5</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="79" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libicudata.so.70</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="80" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/libtcm.so.1</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="81" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/libhwloc.so.15</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="82" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/intelpython/latest/lib/libintelocl_emu.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="83" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8/libtbbmalloc.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="84" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/intelpython/latest/lib/libintelocl.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="85" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime/libittnotify.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="86" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/home/sonar/intel/oneapi/compiler/2024.0/lib/__ocl_svml_z0.so</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="87" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>DynamicCodeBin</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="88" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>66df86178dd603ed</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="89" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/matrix.dpcpp</arg>
+  <arg>25045</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Mon Dec 11 12:00:31 2023</timestamp>
+</msg>
+<msg id="90" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="91" tool="runtool">
+  <type>marker-file</type>
+  <arg>/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="92" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="93" tool="runtool">
+  <type>log-end</type>
+  <arg>2023/12/11 12:00:34</arg>
+</msg>
+
+</log>
+

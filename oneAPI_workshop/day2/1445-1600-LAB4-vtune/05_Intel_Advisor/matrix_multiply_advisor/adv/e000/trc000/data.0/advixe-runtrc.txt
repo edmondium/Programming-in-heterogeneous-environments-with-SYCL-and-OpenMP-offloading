@@ -1,0 +1,10 @@
+
+=== Start: [2023/12/11 11:59:26] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/trc000/trc000.advixe 
+Application exit code: 0 
+Result file: /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/trc000/trc000.advixe 
+Analysis completed
+=== End: [2023/12/11 12:00:34] === 

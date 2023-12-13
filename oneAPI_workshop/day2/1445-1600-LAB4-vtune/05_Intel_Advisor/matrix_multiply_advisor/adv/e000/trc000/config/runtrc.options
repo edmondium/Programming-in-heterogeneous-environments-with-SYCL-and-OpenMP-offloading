@@ -1,0 +1,13 @@
+-r
+/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/trc000
+-quiet
+-cs-file
+/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/callstacks.def
+--cs-mode=count-loops,count-flops,stl-profiling,stack-stitching
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--jit-profiling
+--target-gpu=0:0:2.0
+--gpu-kernel-of-interest=*
+--
+./matrix.dpcpp

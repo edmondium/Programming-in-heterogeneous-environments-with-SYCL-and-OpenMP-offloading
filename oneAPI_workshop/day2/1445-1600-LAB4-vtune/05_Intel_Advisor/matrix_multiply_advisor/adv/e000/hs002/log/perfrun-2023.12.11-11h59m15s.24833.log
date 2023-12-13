@@ -1,0 +1,93 @@
+6 [22545197966336] INFO perfrun.launcher <> - Launcher main begin
+6 [22545197966336] INFO perfrun.launcher <> - MessageCatalogInit finished
+6 [22545197966336] INFO perfrun.launcher <> - Launcher instance created
+6 [22545197966336] INFO perfrun.launcher <> - argc = 7; cmdline = /home/sonar/intel/oneapi/advisor/2024.0/bin64/advixe-runss --ui-output-format xml --ui-output-fd 6 --option-file /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/config/runss.options 
+305 [22545197966336] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+305 [22545197966336] INFO perfrun.launcher <> - create file finder object
+305 [22545197966336] INFO perfrun.launcher <> - create a result directory: pattern = /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002 pid = 4294967295
+307 [22545197966336] INFO perfrun.sdk <> - checked that the directory /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002 is a local directory
+307 [22545197966336] INFO perfrun.sdk <> - the directory /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002 is a local directory with FS type ID 61267
+307 [22545197966336] INFO perfrun.launcher <> - create data directory = /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0
+307 [22545197966336] INFO perfrun.launcher <> - Creating the master collection flag
+312 [22545197966336] INFO perfrun.launcher <> - Done creating the master collection flag
+313 [22545048790592] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+313 [22545048790592] INFO perfrun.sdk <> - Allocating TMU :/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0/systemcollector-24833-pontus2.sc
+313 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+313 [22545048790592] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+313 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+313 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+313 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+313 [22545048790592] INFO perfrun.mrte <> - system-wide mode is 0
+313 [22545048790592] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+317 [22545048790592] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0
+317 [22545048790592] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=pontus2
+317 [22545048790592] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:advixe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/home/sonar/intel/oneapi/advisor/2024.0/lib32/runtime:/home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime
+317 [22545048790592] INFO perfrun.mrte <> - LD_LIBRARY_PATH=/home/sonar/intel/oneapi/advisor/2024.0/lib32/runtime:/home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime:/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8:/home/sonar/intel/oneapi/mpi/2021.11/opt/mpi/libfabric/lib:/home/sonar/intel/oneapi/mpi/2021.11/lib:/home/sonar/intel/oneapi/mkl/2024.0/lib:/home/sonar/intel/oneapi/itac/2022.0/slib:/home/sonar/intel/oneapi/ippcp/2021.9/lib/:/home/sonar/intel/oneapi/ipp/2021.10/lib:/home/sonar/intel/oneapi/dpl/2022.3/lib:/home/sonar/intel/oneapi/dnnl/2024.0/lib:/home/sonar/intel/oneapi/debugger/2024.0/opt/debugger/lib:/home/sonar/intel/oneapi/dal/2024.0/lib:/home/sonar/intel/oneapi/compiler/2024.0/opt/oclfpga/host/linux64/lib:/home/sonar/intel/oneapi/compiler/2024.0/opt/compiler/lib:/home/sonar/intel/oneapi/compiler/2024.0/lib:/home/sonar/intel/oneapi/ccl/2021.11/lib/:/home/sonar/HDF5/hdf5-1.14.2/hdf5/lib:/usr/local/cuda-12.3/lib64:
+317 [22545048790592] INFO perfrun.mrte <> - Data directory: /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0
+317 [22545048790592] INFO perfrun.mrte <> - Mrte plugin is initialized
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.tpss <> - initialize tpss controller
+317 [22545048790592] INFO perfrun.tpss <> - configure collection mode: value = cpu:stack
+317 [22545048790592] INFO perfrun.tpss <> - default obj-size-min=1024
+317 [22545048790592] INFO perfrun.tpss <> - default hash-table-size=0
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+317 [22545048790592] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /home/sonar/intel/oneapi/advisor/2024.0/lib32/runtime:/home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime:/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8:/home/sonar/intel/oneapi/mpi/2021.11/opt/mpi/libfabric/lib:/home/sonar/intel/oneapi/mpi/2021.11/lib:/home/sonar/intel/oneapi/mkl/2024.0/lib:/home/sonar/intel/oneapi/itac/2022.0/slib:/home/sonar/intel/oneapi/ippcp/2021.9/lib/:/home/sonar/intel/oneapi/ipp/2021.10/lib:/home/sonar/intel/oneapi/dpl/2022.3/lib:/home/sonar/intel/oneapi/dnnl/2024.0/lib:/home/sonar/intel/oneapi/debugger/2024.0/opt/debugger/lib:/home/sonar/intel/oneapi/dal/2024.0/lib:/home/sonar/intel/oneapi/compiler/2024.0/opt/oclfpga/host/linux64/lib:/home/sonar/intel/oneapi/compiler/2024.0/opt/compiler/lib:/home/sonar/intel/oneapi/compiler/2024.0/lib:/home/sonar/intel/oneapi/ccl/2021.11/lib/:/home/sonar/HDF5/hdf5-1.14.2/hdf5/lib:/usr/local/cuda-12.3/lib64:
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY32 = /home/sonar/intel/oneapi/advisor/2024.0/lib32/runtime/libittnotify_collector.so
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = /home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime/libittnotify_collector.so
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER32 = /home/sonar/intel/oneapi/advisor/2024.0/lib32/runtime/libittnotify_collector.so
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = /home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime/libittnotify_collector.so
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = pontus2
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:advixe_tpssmrte_javaprof_1.0 -Dsun.boot.library.path=/home/sonar/intel/oneapi/advisor/2024.0/lib32/runtime:/home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime
+318 [22545197966336] INFO perfrun.launcher <> - set environment variable: LD_LIBRARY_PATH = /home/sonar/intel/oneapi/advisor/2024.0/lib32/runtime:/home/sonar/intel/oneapi/advisor/2024.0/lib64/runtime:/home/sonar/intel/oneapi/tbb/2021.11/env/../lib/intel64/gcc4.8:/home/sonar/intel/oneapi/mpi/2021.11/opt/mpi/libfabric/lib:/home/sonar/intel/oneapi/mpi/2021.11/lib:/home/sonar/intel/oneapi/mkl/2024.0/lib:/home/sonar/intel/oneapi/itac/2022.0/slib:/home/sonar/intel/oneapi/ippcp/2021.9/lib/:/home/sonar/intel/oneapi/ipp/2021.10/lib:/home/sonar/intel/oneapi/dpl/2022.3/lib:/home/sonar/intel/oneapi/dnnl/2024.0/lib:/home/sonar/intel/oneapi/debugger/2024.0/opt/debugger/lib:/home/sonar/intel/oneapi/dal/2024.0/lib:/home/sonar/intel/oneapi/compiler/2024.0/opt/oclfpga/host/linux64/lib:/home/sonar/intel/oneapi/compiler/2024.0/opt/compiler/lib:/home/sonar/intel/oneapi/compiler/2024.0/lib:/home/sonar/intel/oneapi/ccl/2021.11/lib/:/home/sonar/HDF5/hdf5-1.14.2/hdf5/lib:/usr/local/cuda-12.3/lib64:
+318 [22545197966336] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+319 [22545197966336] INFO perfrun.launcher <> - Launcher: command line to start before modification = ./matrix.dpcpp
+319 [22545197966336] INFO perfrun.launcher <> - Launcher: command line to start after modification = /home/sonar/intel/oneapi/advisor/2024.0/bin64/pin -error_file /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0/pinerr.tpsslog -detach_reattach -follow_execv -tool_load_option deepbind -t64 /home/sonar/intel/oneapi/advisor/2024.0/lib64/libtpsstool.so -t /home/sonar/intel/oneapi/advisor/2024.0/lib32/libtpsstool.so -server_name tpss_ipc.24833 -prd_dir /home/sonar/intel/oneapi/advisor/2024.0 -- ./matrix.dpcpp
+319 [22545197966336] INFO perfrun.launcher <> - ProcessCreator object was created
+320 [22545197966336] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+321 [22545048790592] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:787
+321 [22545048790592] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:800
+322 [22545048790592] WARN perfrun.sdk <> - Failed to find xl binary on any of the system paths: /bin, /sbin, /usr/bin, /usr/sbin., at file: vcs/perfrun1/sdk/src/utils.cpp:204
+325 [22545048790592] INFO perfrun.vdso <> - Helper runtool '/home/sonar/intel/oneapi/advisor/2024.0/bin32/advixe-runss -dump-vdso -r /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002 --tmp-dir /tmp/advixe-tmp-sonar' returned 1
+659 [22545048790592] INFO perfrun.vdso <> - Helper runtool '/home/sonar/intel/oneapi/advisor/2024.0/bin64/advixe-runss -dump-vdso -r /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002 --tmp-dir /tmp/advixe-tmp-sonar' returned 0
+659 [22545048790592] INFO perfrun.itt <> - start itt controller for pid #24839
+660 [22545048790592] INFO perfrun.tpss <> - start tpss controller for pid #24839
+710 [22545197966336] INFO perfrun.launcher <> - Launcher: all plugins were started
+710 [22545197966336] INFO perfrun.launcher <> - DirectoryMonitor object was created
+711 [22545197966336] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+711 [22545197966336] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+711 [22545197966336] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+711 [22545197966336] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+714 [22545197966336] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+4473 [22545197966336] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+4480 [22545048790592] INFO perfrun.itt <> - detach itt controller
+4480 [22545048790592] INFO perfrun.itt <> - detach itt controller done
+4480 [22545048790592] INFO perfrun.tpss <> - stop tpss controller
+4480 [22545048790592] INFO perfrun.sdk <> - De-allocating TMU: /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0/systemcollector-24833-pontus2.sc
+4480 [22545048790592] INFO perfrun.system <> - closed the system trace file: /home/sonar/IntelOneAPI/Workshops_SS_as_Trainer/202309_VSC_Vienna_online/day2/1445-1600-LAB4-vtune/05_Intel_Advisor/matrix_multiply_advisor/adv/e000/hs002/data.0/systemcollector-24833-pontus2.sc
+4480 [22545197966336] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+4480 [22545197966336] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+4480 [22545197966336] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+4480 [22545197966336] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+4480 [22545197966336] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:226
+4480 [22545197966336] INFO perfrun.launcher <> - Application exit code: 0
+4480 [22545197966336] INFO perfrun.launcher <> - Exit code: 0
